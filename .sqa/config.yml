@@ -1,0 +1,42 @@
+config:
+  credentials: []
+  project_repos:
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: release/2.0.0
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+    github.com/stevenjgibbons/statphase2slowvec:
+      branch: main
+      repo: https://github.com/stevenjgibbons/statphase2slowvec
+environment:
+  JPL_DOCKERFORCEBUILD: enabled
+  JPL_KEEPGOING: enabled
+sqa_criteria:
+  QC.Acc:
+    repos:
+      github.com/stevenjgibbons/statphase2slowvec git:
+        commands:
+        - /usr/bin/env sh .sqa/script.pokey-indigo-hare.sh
+        container: qc.acc_grumpy-tangerine-penguin
+  QC.Doc:
+    repos:
+      github.com/stevenjgibbons/statphase2slowvec find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.shabby-seashell-butterfly.sh
+        container: qc.doc_boozy-gamboge-alligator
+      github.com/stevenjgibbons/statphase2slowvec git:
+        commands:
+        - /usr/bin/env sh .sqa/script.lumpy-ultramarine-kakapo.sh
+        container: qc.doc_gummy-crimson-tang
+  QC.Lic:
+    repos:
+      github.com/stevenjgibbons/statphase2slowvec licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.muggy-lime-octopus.sh
+        container: qc.lic_thirsty-fuchsia-caterpillar
+  QC.Ver:
+    repos:
+      github.com/stevenjgibbons/statphase2slowvec get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.lanky-sapphire-dalmatian.sh
+        container: qc.ver_snoopy-amaranth-weasel
+timeout: 5400
