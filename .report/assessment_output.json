@@ -1239,23 +1239,23 @@
             },
             "data": {
                 "entityType": "Assertion",
-                "entityId": "-BnSU6xAQ9-JsTzglcIYvA",
-                "openBadgeId": "https://api.eu.badgr.io/public/assertions/-BnSU6xAQ9-JsTzglcIYvA",
-                "createdAt": "2025-01-05T21:06:56.286153163Z",
+                "entityId": "1etKsa8JQtmUQERYn5n0tQ",
+                "openBadgeId": "https://api.eu.badgr.io/public/assertions/1etKsa8JQtmUQERYn5n0tQ",
+                "createdAt": "2025-01-06T05:24:47.565120844Z",
                 "createdBy": "aS1lWKgIR4u8bGjPZUzAyg",
                 "badgeclass": "UOmgyH_TSpSPXiro4aNBoQ",
                 "badgeclassOpenBadgeId": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ",
                 "issuer": "aS1lWKgIR4u8bGjPZUzAyg",
                 "issuerOpenBadgeId": "https://api.eu.badgr.io/public/issuers/aS1lWKgIR4u8bGjPZUzAyg",
-                "image": "https://api.eu.badgr.io/public/assertions/-BnSU6xAQ9-JsTzglcIYvA/image",
+                "image": "https://api.eu.badgr.io/public/assertions/1etKsa8JQtmUQERYn5n0tQ/image",
                 "recipient": {
-                    "identity": "sha256$127823117e12a651adca7f5e15a9fe616f4dcfe05f1a668f001e0faabe304d05",
+                    "identity": "sha256$75bc33d64971e9e68d1e0f884b71c454e708b64e0775b782ac461159d00c7c85",
                     "hashed": true,
                     "type": "url",
-                    "salt": "JjxVU7dhH97CFySu",
+                    "salt": "0wmQBc8thEdXfIId",
                     "plaintextIdentity": "https://github.com/stevenjgibbons/statphase2slowvec"
                 },
-                "issuedOn": "2025-01-05T21:06:56.286155619Z",
+                "issuedOn": "2025-01-06T05:24:47.565123712Z",
                 "narrative": "SQAaaS assessment results for repository https://github.com/stevenjgibbons/statphase2slowvec (commit: cdfc1eb13d9d2d20ca685f6abf320978b49d95ff, branch/tag: main)",
                 "evidence": [
                     {
@@ -1273,7 +1273,7 @@
                 "expires": null,
                 "extensions": {},
                 "assertionRef": {
-                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/-BnSU6xAQ9-JsTzglcIYvA"
+                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/1etKsa8JQtmUQERYn5n0tQ"
                 },
                 "badgeRef": {
                     "badgeUrl": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ"
@@ -1285,10 +1285,10 @@
                 "source": "local",
                 "sourceUrl": null,
                 "originalJson": null,
-                "imagePath": "uploads/badges/assertion--BnSU6xAQ9-JsTzglcIYvA.png"
+                "imagePath": "uploads/badges/assertion-1etKsa8JQtmUQERYn5n0tQ.png"
             },
-            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/-BnSU6xAQ9-JsTzglcIYvA?identity__url=https%3A//github.com/EOSC-synergy/statphase2slowvec.assess.sqaaas/commit/0e3ac833aba5082a752bfd746918b3f15757f5f3\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/-BnSU6xAQ9-JsTzglcIYvA/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
-            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2F-BnSU6xAQ9-JsTzglcIYvA?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fstatphase2slowvec.assess.sqaaas%2Fcommit%2F0e3ac833aba5082a752bfd746918b3f15757f5f3&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fstatphase2slowvec.assess.sqaaas%2Fcommit%2F0e3ac833aba5082a752bfd746918b3f15757f5f3"
+            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/1etKsa8JQtmUQERYn5n0tQ?identity__url=https%3A//github.com/EOSC-synergy/statphase2slowvec.assess.sqaaas/commit/0e3ac833aba5082a752bfd746918b3f15757f5f3\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/1etKsa8JQtmUQERYn5n0tQ/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
+            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2F1etKsa8JQtmUQERYn5n0tQ?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fstatphase2slowvec.assess.sqaaas%2Fcommit%2F0e3ac833aba5082a752bfd746918b3f15757f5f3&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fstatphase2slowvec.assess.sqaaas%2Fcommit%2F0e3ac833aba5082a752bfd746918b3f15757f5f3"
         }
     }
 }
